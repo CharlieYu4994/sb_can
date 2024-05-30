@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "LDC"
+	(property "Value" "Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal"
 		(at 0 3.8 0)
 		(layer "F.Fab")
 		(uuid "e8a3b6be-b0ea-4909-9778-61744cd3abbc")
@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal"
+	(property "Footprint" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -51,7 +51,7 @@
 			)
 		)
 	)
-	(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+	(property "Description" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -103,16 +103,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "678bbd02-ed93-4594-bf6e-3b4ef63ac0af")
-	)
-	(fp_line
-		(start -2.535 -1.71)
-		(end -2.535 -3.2)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "b613caf9-2278-4906-b2a3-0cac0cf542e6")
 	)
 	(fp_line
 		(start 3.485 -1.71)

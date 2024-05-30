@@ -14,8 +14,8 @@
 			)
 		)
 	)
-	(property "Value" "XT30PB_IN"
-		(at 0 -11.303 180)
+	(property "Value" "AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+		(at 0 -8.382 180)
 		(layer "F.Fab")
 		(uuid "ff824750-5e51-4e1b-82fb-73444da467bd")
 		(effects
@@ -25,7 +25,7 @@
 			)
 		)
 	)
-	(property "Footprint" "Library:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+	(property "Footprint" ""
 		(at 0.1725 -3.597501 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -49,7 +49,7 @@
 			)
 		)
 	)
-	(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+	(property "Description" ""
 		(at 0.1725 -3.597501 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -183,6 +183,17 @@
 		(layer "F.CrtYd")
 		(uuid "34a4e2c2-70cd-4dd3-8591-63dc94067470")
 	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "bcc73eba-1c8b-419d-aeaf-8be18d8a4ad3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(pad "1" thru_hole circle
 		(at -4.2925 -5.2125)
 		(size 2.8 2.8)
@@ -227,15 +238,15 @@
 			"cdd0aae6-1ae2-446c-b1db-fbc4c9439c07" "d9d85a41-e38f-4846-8c34-95923c00f2c3"
 		)
 	)
-	(model "${KIPRJMOD}/Library/Library.3dshapes/AMASS_XT30PW-M_1x02_P2.50mm_Horizontal.wrl"
+	(model "${KIPRJMOD}/Library/Library.3dshapes/AMASS_XT30PW-M_1x02_P2.50mm_Horizontal.step"
 		(offset
-			(xyz 0 -0.3 0)
+			(xyz 0 -2.2 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )

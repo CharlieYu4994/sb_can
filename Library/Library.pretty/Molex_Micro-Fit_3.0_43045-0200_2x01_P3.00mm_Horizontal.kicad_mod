@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Hotend"
+	(property "Value" "Molex_Micro-Fit_3.0_43045-0200_2x01_P3.00mm_Horizontal"
 		(at 0 5.7 0)
 		(layer "F.Fab")
 		(uuid "a3bd367b-83f5-4ce1-bfb8-8e7d88a1b8e1")
@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0200_2x01_P3.00mm_Horizontal"
+	(property "Footprint" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -51,7 +51,7 @@
 			)
 		)
 	)
-	(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+	(property "Description" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")

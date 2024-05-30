@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Conn_02x05_Odd_Even"
+	(property "Value" "PinHeader_2x05_P2.00mm_Horizontal"
 		(at 4.1 10 0)
 		(layer "F.Fab")
 		(uuid "793dde90-a266-46b4-8e5f-bd7a4b01500a")
@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Horizontal"
+	(property "Footprint" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -51,7 +51,7 @@
 			)
 		)
 	)
-	(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+	(property "Description" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")

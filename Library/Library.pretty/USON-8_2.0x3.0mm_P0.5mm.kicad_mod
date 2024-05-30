@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "W25Q16JVUXIQ"
+	(property "Value" "USON-8_2.0x3.0mm_P0.5mm"
 		(at 0.5588 -2.9972 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -26,7 +26,7 @@
 			)
 		)
 	)
-	(property "Footprint" "Library:USON-8_2.0x3.0mm_P0.5mm"
+	(property "Footprint" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -62,7 +62,7 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr smd)
 	(fp_line
 		(start -1.5 1)
 		(end -1.5 1.1)

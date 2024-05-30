@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Excluder"
+	(property "Value" "JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical"
 		(at 0 4.45 180)
 		(layer "F.Fab")
 		(uuid "7d2d3880-d340-4325-a138-d73504634214")
@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" "Connector_JST:JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical"
+	(property "Footprint" ""
 		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -51,7 +51,7 @@
 			)
 		)
 	)
-	(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+	(property "Description" ""
 		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -103,16 +103,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "534cc2f3-dae7-4ac8-91c5-5dcd3b84758d")
-	)
-	(fp_line
-		(start -3.76 0.86)
-		(end -3.76 3.25)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "3a40e5d0-b746-48f2-9dc1-116b685b62ba")
 	)
 	(fp_line
 		(start 6.085 -4.36)
