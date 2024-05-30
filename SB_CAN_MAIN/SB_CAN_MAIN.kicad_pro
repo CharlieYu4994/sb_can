@@ -449,7 +449,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SB_CAN.kicad_pro",
+    "filename": "SB_CAN_MAIN.kicad_pro",
     "version": 1
   },
   "net_settings": {
