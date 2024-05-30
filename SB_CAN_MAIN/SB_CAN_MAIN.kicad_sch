@@ -249,6 +249,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -8630,6 +8732,12 @@
 		(uuid "4205c304-2ca2-44ff-9365-613f226cd680")
 	)
 	(junction
+		(at 274.32 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46519c0c-5bae-4531-a712-18770aadbf89")
+	)
+	(junction
 		(at 193.04 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8712,6 +8820,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65e0b8eb-41f8-4cbd-b8a8-abd4a79d1192")
+	)
+	(junction
+		(at 74.93 265.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ffd17e6-e90e-48ba-a8a5-790129f3f45b")
 	)
 	(junction
 		(at 31.75 109.22)
@@ -8844,6 +8958,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5ba6bf6-18f3-4817-880d-67b08bb00a0f")
+	)
+	(junction
+		(at 87.63 265.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5bd0a99-94e3-41f9-89f8-71d868923e16")
 	)
 	(junction
 		(at 200.66 33.02)
@@ -9104,6 +9224,16 @@
 			(type default)
 		)
 		(uuid "02ba2515-54b0-49c1-a7c3-7e4f8fd6c0f9")
+	)
+	(wire
+		(pts
+			(xy 82.55 269.24) (xy 87.63 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0312be43-30dc-46dd-9c79-777a2d642abc")
 	)
 	(wire
 		(pts
@@ -9837,7 +9967,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 168.91) (xy 284.48 170.18)
+			(xy 278.13 168.91) (xy 278.13 170.18)
 		)
 		(stroke
 			(width 0)
@@ -9947,7 +10077,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 265.43) (xy 77.47 265.43)
+			(xy 63.5 265.43) (xy 74.93 265.43)
 		)
 		(stroke
 			(width 0)
@@ -11347,6 +11477,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 269.24) (xy 87.63 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ca3cd0b-ef7b-4cda-8c40-e10f19d82ff9")
+	)
+	(wire
+		(pts
 			(xy 58.42 208.28) (xy 58.42 210.82)
 		)
 		(stroke
@@ -11627,16 +11767,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 34.29) (xy 274.32 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88ca63e8-ec9e-463d-84c4-b365b412ac61")
-	)
-	(wire
-		(pts
 			(xy 137.16 242.57) (xy 137.16 246.38)
 		)
 		(stroke
@@ -11747,7 +11877,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 168.91) (xy 260.35 170.18)
+			(xy 267.97 168.91) (xy 267.97 170.18)
 		)
 		(stroke
 			(width 0)
@@ -12187,6 +12317,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 269.24) (xy 74.93 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45b4d55-05e3-44fd-a720-186cc519712d")
+	)
+	(wire
+		(pts
 			(xy 262.89 153.67) (xy 266.7 153.67)
 		)
 		(stroke
@@ -12367,7 +12507,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 170.18) (xy 273.05 170.18)
+			(xy 267.97 170.18) (xy 273.05 170.18)
 		)
 		(stroke
 			(width 0)
@@ -12594,6 +12734,16 @@
 			(type default)
 		)
 		(uuid "bb1b9ca7-47e2-4d7f-ad83-d634b9630c8f")
+	)
+	(wire
+		(pts
+			(xy 274.32 34.29) (xy 276.86 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb93daba-ac26-4a33-ac15-ce86a0a440aa")
 	)
 	(wire
 		(pts
@@ -12837,6 +12987,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 265.43) (xy 77.47 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9463559-7160-48e5-83f4-8972ef1b792f")
+	)
+	(wire
+		(pts
 			(xy 214.63 125.73) (xy 214.63 124.46)
 		)
 		(stroke
@@ -12897,7 +13057,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 170.18) (xy 284.48 170.18)
+			(xy 273.05 170.18) (xy 278.13 170.18)
 		)
 		(stroke
 			(width 0)
@@ -13554,6 +13714,16 @@
 			(type default)
 		)
 		(uuid "f001b63c-9e9c-4123-8cf0-589c56e0d0eb")
+	)
+	(wire
+		(pts
+			(xy 77.47 269.24) (xy 74.93 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f18c5bbc-3ae6-4a24-b474-9d01d587f903")
 	)
 	(wire
 		(pts
@@ -14896,7 +15066,7 @@
 			(uuid "8ccb88ee-00a7-47f7-bd87-d1c219e8b477")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "R9")
 					(unit 1)
@@ -14966,7 +15136,7 @@
 			(uuid "f5e96376-48bd-4313-81cc-260a8e722628")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "R5")
 					(unit 1)
@@ -15035,7 +15205,7 @@
 			(uuid "831b20a0-a5a5-4352-a128-96a8e8f4b8e1")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C5")
 					(unit 1)
@@ -15104,7 +15274,7 @@
 			(uuid "aed6ffd9-c58b-4101-92d3-381c6c4cbd60")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "R4")
 					(unit 1)
@@ -15171,7 +15341,7 @@
 			(uuid "a8cd1fc7-e59b-4fd3-b877-f78aca576d2b")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR016")
 					(unit 1)
@@ -15237,7 +15407,7 @@
 			(uuid "43ec0b4d-bc10-4086-88ab-4b635d336c49")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0108")
 					(unit 1)
@@ -15306,7 +15476,7 @@
 			(uuid "7c6e2424-0f1e-4b98-977b-e879dc031d36")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C10")
 					(unit 1)
@@ -15375,7 +15545,7 @@
 			(uuid "75508009-2d49-4afe-8a0a-06e5771333e1")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C2")
 					(unit 1)
@@ -15442,7 +15612,7 @@
 			(uuid "e8cb6a32-e060-4407-bc1d-14c40e2d5e87")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0122")
 					(unit 1)
@@ -15509,7 +15679,7 @@
 			(uuid "424cabb9-c4a4-440a-9323-411e33ba7180")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0112")
 					(unit 1)
@@ -15637,7 +15807,7 @@
 			(uuid "3229d424-54fe-410d-aa5e-3cc3a1d90c91")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "U9")
 					(unit 1)
@@ -15703,7 +15873,7 @@
 			(uuid "3601af5f-0183-4e51-a3e6-d73c18001c9a")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0111")
 					(unit 1)
@@ -15785,7 +15955,7 @@
 			(uuid "adc6e967-3c63-4c90-b9a4-985e0fa3f61c")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "Q1")
 					(unit 1)
@@ -15873,7 +16043,7 @@
 			(uuid "2cbc6623-0134-4183-b2cf-93c3bf3a17df")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "U2")
 					(unit 1)
@@ -15949,7 +16119,7 @@
 			(uuid "4bb9b9b0-8cef-430c-89f0-c16b0f8e1b76")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "J4")
 					(unit 1)
@@ -16016,7 +16186,7 @@
 			(uuid "f697a713-993f-43ec-b536-dde7c4d1b047")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0123")
 					(unit 1)
@@ -16120,7 +16290,7 @@
 			(uuid "77308e26-ec74-4edb-99a3-47ef61b30f62")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "U8")
 					(unit 1)
@@ -16186,7 +16356,7 @@
 			(uuid "8feb4a6f-dbe7-4b15-a522-2872eaf16381")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0140")
 					(unit 1)
@@ -16255,7 +16425,7 @@
 			(uuid "b1a533ee-f3a9-4119-8e45-d605312587c4")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C17")
 					(unit 1)
@@ -16321,7 +16491,7 @@
 			(uuid "a7144389-833b-4194-8fa7-3858595056c4")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR06")
 					(unit 1)
@@ -16387,7 +16557,7 @@
 			(uuid "15abf8da-dee4-49f7-b69c-a42324a11073")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0146")
 					(unit 1)
@@ -16456,7 +16626,7 @@
 			(uuid "402d6e97-87f1-4289-85e9-8ca93839062f")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C25")
 					(unit 1)
@@ -16522,7 +16692,7 @@
 			(uuid "2eabac0f-0721-40d1-a2e9-7541f5637b03")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR05")
 					(unit 1)
@@ -16591,7 +16761,7 @@
 			(uuid "e9c03224-2250-4604-a8ab-76d47f615546")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C16")
 					(unit 1)
@@ -16657,7 +16827,7 @@
 			(uuid "9a1dc5e4-37e2-448f-b9b1-71e380032c91")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR08")
 					(unit 1)
@@ -16723,7 +16893,7 @@
 			(uuid "47d0e30b-031e-4ae7-9bee-ab9c8fcdccfb")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0145")
 					(unit 1)
@@ -16789,7 +16959,7 @@
 			(uuid "db2387a0-acea-41c7-8749-24d149274c9e")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0128")
 					(unit 1)
@@ -16858,7 +17028,7 @@
 			(uuid "8811ee08-ba82-4266-81b8-9f1dd840b799")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C36")
 					(unit 1)
@@ -16927,7 +17097,7 @@
 			(uuid "9752c7d1-bed8-4055-86e6-c5129d0a21bf")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "D1")
 					(unit 1)
@@ -16993,7 +17163,7 @@
 			(uuid "2f33cfcd-bc03-4c1f-93f9-e5209e24f645")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0144")
 					(unit 1)
@@ -17059,7 +17229,7 @@
 			(uuid "b038a925-968a-430f-ac8e-420fd22239ff")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0143")
 					(unit 1)
@@ -17126,7 +17296,7 @@
 			(uuid "e9e9c285-fcc3-456a-83d4-747c30f34796")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0105")
 					(unit 1)
@@ -17195,7 +17365,7 @@
 			(uuid "4e4c1316-b1f6-4b1c-823d-d8bcabf65929")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C11")
 					(unit 1)
@@ -17264,7 +17434,7 @@
 			(uuid "6ed03a96-c8d3-426a-b5b9-28714722f768")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C6")
 					(unit 1)
@@ -17330,7 +17500,7 @@
 			(uuid "aec35ba7-825a-4c75-9569-0f0d1dfd4220")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0132")
 					(unit 1)
@@ -17396,7 +17566,7 @@
 			(uuid "a53ff8e2-6a0b-488b-81a6-f803490d5ed3")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0139")
 					(unit 1)
@@ -17475,7 +17645,7 @@
 			(uuid "b4291be6-88e6-40de-ab47-18f443da89ce")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "J7")
 					(unit 1)
@@ -17541,7 +17711,7 @@
 			(uuid "0894a10b-71ac-4331-a141-e8a776da73d4")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR010")
 					(unit 1)
@@ -17607,7 +17777,7 @@
 			(uuid "034c20a6-a44c-4816-aafe-a818eed5f0e1")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0103")
 					(unit 1)
@@ -17676,7 +17846,7 @@
 			(uuid "30950e08-5a87-4f41-b2fa-fa59708ce061")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C15")
 					(unit 1)
@@ -17745,7 +17915,7 @@
 			(uuid "d7573efe-b741-4da2-89f0-97e20faef0ec")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C33")
 					(unit 1)
@@ -17811,7 +17981,7 @@
 			(uuid "ed84d6c5-b125-4899-b596-f7fabb1314e3")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR011")
 					(unit 1)
@@ -17880,7 +18050,7 @@
 			(uuid "4c69f976-0fb7-4f0e-9fc8-9a595f2d51b5")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C14")
 					(unit 1)
@@ -17949,7 +18119,7 @@
 			(uuid "61663363-7cc4-4f69-8909-3f1fbc7f91e8")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C8")
 					(unit 1)
@@ -18015,7 +18185,7 @@
 			(uuid "6183495a-1310-4cb6-97bb-8215c7a75b94")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0119")
 					(unit 1)
@@ -18085,7 +18255,7 @@
 			(uuid "44b85bee-7c0b-4d80-893a-10253d5dd45f")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "R16")
 					(unit 1)
@@ -18154,7 +18324,7 @@
 			(uuid "06f1eaeb-2d27-4cc0-bb0e-4eecfdc149d1")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C28")
 					(unit 1)
@@ -18223,7 +18393,7 @@
 			(uuid "5cfa42d1-e877-47b5-b5ec-4f9aae613bf3")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C18")
 					(unit 1)
@@ -18290,7 +18460,7 @@
 			(uuid "cb27c6f1-9e8f-4cdc-9d4b-da6f8bb73522")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "FB1")
 					(unit 1)
@@ -18358,7 +18528,7 @@
 			(uuid "7667f555-0940-4f39-b67d-37e9d4c32250")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR014")
 					(unit 1)
@@ -18424,7 +18594,7 @@
 			(uuid "7b778269-f825-48bd-9a26-919c5498a2a2")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0150")
 					(unit 1)
@@ -18493,7 +18663,7 @@
 			(uuid "089bcfde-a91a-4d0a-9804-bcc6ae9b8bea")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "R3")
 					(unit 1)
@@ -18560,7 +18730,7 @@
 			(uuid "786767fb-e708-45d0-b0ea-1a47d2f384ed")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0154")
 					(unit 1)
@@ -18626,7 +18796,7 @@
 			(uuid "2a0365d7-abf6-40f2-845e-7616039f2ccb")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0160")
 					(unit 1)
@@ -18692,7 +18862,7 @@
 			(uuid "682532fd-66ca-4d0d-9a1a-cc6d115dffdd")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR01")
 					(unit 1)
@@ -18761,9 +18931,78 @@
 			(uuid "33c2f603-f217-4275-9720-2e6a25c436fe")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 80.01 269.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ab1646e-9288-4a7b-9b55-cc4e0d850418")
+		(property "Reference" "C37"
+			(at 78.74 267.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "47pF"
+			(at 81.28 267.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 80.01 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1fa3203-54e0-40d4-ae24-1cf1996f0ce9")
+		)
+		(pin "2"
+			(uuid "4251bd09-a839-45c0-9754-6d955fdbece1")
+		)
+		(instances
+			(project "SB_CAN_MAIN"
+				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -18828,7 +19067,7 @@
 			(uuid "74d51e48-417a-4cff-afa3-5c737a3e537b")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0153")
 					(unit 1)
@@ -18898,7 +19137,7 @@
 			(uuid "34e1b0a9-4cc3-4444-b4df-412451a1448f")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "FB4")
 					(unit 1)
@@ -18966,7 +19205,7 @@
 			(uuid "b848f047-7c5b-4e1a-88d0-e50268485c2c")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR013")
 					(unit 1)
@@ -19035,7 +19274,7 @@
 			(uuid "ed31eb11-839b-40cf-945e-4a6989ac59c5")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C9")
 					(unit 1)
@@ -19104,7 +19343,7 @@
 			(uuid "96477a43-6687-4b77-a11f-ff973eec944a")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C19")
 					(unit 1)
@@ -19174,9 +19413,75 @@
 			(uuid "cfba2316-67a1-4ffb-95ef-6f2ff03d865f")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 274.32 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5654a66b-7ca5-4cf0-9522-04b41b6069e9")
+		(property "Reference" "TP2"
+			(at 274.32 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "PAD"
+			(at 274.32 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Library:PAD"
+			(at 279.4 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 274.32 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9319847e-512d-4f50-abb2-329204c4fe0d")
+		)
+		(instances
+			(project "SB_CAN_MAIN"
+				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -19240,7 +19545,7 @@
 			(uuid "9b2f0647-9156-4054-986b-71cffce9e15c")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0147")
 					(unit 1)
@@ -19309,7 +19614,7 @@
 			(uuid "8faa61d6-5ef4-4a48-9a57-064437613de0")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C26")
 					(unit 1)
@@ -19388,7 +19693,7 @@
 			(uuid "2c6b1e90-ba71-4dc2-92fe-b61842548d0d")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "J8")
 					(unit 1)
@@ -19455,7 +19760,7 @@
 			(uuid "97a5b218-e271-4531-a6b4-ff7e670bab75")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0149")
 					(unit 1)
@@ -19520,7 +19825,7 @@
 			(uuid "6655e817-21c2-49ee-aa96-9e54d42abaf4")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0114")
 					(unit 1)
@@ -19586,7 +19891,7 @@
 			(uuid "7e962a49-c02a-4894-9aa5-d9562ed2ddbc")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0116")
 					(unit 1)
@@ -19655,7 +19960,7 @@
 			(uuid "89e312bd-743f-4aaa-8569-1816917eca5c")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C24")
 					(unit 1)
@@ -19720,7 +20025,7 @@
 			(uuid "b57c6bde-9b34-4fa2-9e26-21003c4b9de6")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0159")
 					(unit 1)
@@ -19786,7 +20091,7 @@
 			(uuid "45bae5f3-14c1-4aeb-b9eb-cdb1d785482c")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0102")
 					(unit 1)
@@ -19855,7 +20160,7 @@
 			(uuid "00826209-76b5-4e73-8ad6-06e54cf07f67")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C7")
 					(unit 1)
@@ -19924,7 +20229,7 @@
 			(uuid "b79e5a68-1829-4c6e-9e70-d2aee0587ca4")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C3")
 					(unit 1)
@@ -19991,7 +20296,7 @@
 			(uuid "b9696a5a-4b04-4634-9c97-079bf7d1f34f")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0161")
 					(unit 1)
@@ -20057,7 +20362,7 @@
 			(uuid "c66e7800-8ca2-43bf-aa5e-6fde53e633a6")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0137")
 					(unit 1)
@@ -20123,7 +20428,7 @@
 			(uuid "2b1cf06f-dab5-454b-9b13-bb438a1e5357")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0151")
 					(unit 1)
@@ -20192,7 +20497,7 @@
 			(uuid "63f1c216-6078-42cd-b81e-2d9eb862498f")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "L1")
 					(unit 1)
@@ -20258,7 +20563,7 @@
 			(uuid "0eb76408-e05f-469b-85ba-1a825b4ab062")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0106")
 					(unit 1)
@@ -20328,7 +20633,7 @@
 			(uuid "b42d09bf-b3c5-4b2e-afa2-3b4555ba9b28")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "R13")
 					(unit 1)
@@ -20397,7 +20702,7 @@
 			(uuid "f10c7c6c-5160-45b3-9c8a-c7ac7db3c93a")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C32")
 					(unit 1)
@@ -20467,7 +20772,7 @@
 			(uuid "4bdd2924-e91f-4386-8c03-cd967fcab6db")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "D2")
 					(unit 1)
@@ -20535,7 +20840,7 @@
 			(uuid "0f8962c3-be10-45d5-b469-28ba458a6617")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "FB2")
 					(unit 1)
@@ -20602,7 +20907,7 @@
 			(uuid "a4767b76-969e-44eb-953b-8bd873785624")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0125")
 					(unit 1)
@@ -20668,7 +20973,7 @@
 			(uuid "8171357f-fe8c-4a2e-ba9c-cb9e2b321104")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0133")
 					(unit 1)
@@ -20744,7 +21049,7 @@
 			(uuid "f7556bfe-948e-495e-a7e3-dcaf3b031d9b")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "U7")
 					(unit 1)
@@ -20811,7 +21116,7 @@
 			(uuid "90c4bb8e-8d69-42d9-9124-cf57796257e3")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0104")
 					(unit 1)
@@ -20880,7 +21185,7 @@
 			(uuid "84c1805b-48d6-4d0e-8855-1c37d6897716")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "R14")
 					(unit 1)
@@ -20949,7 +21254,7 @@
 			(uuid "76c952b0-e709-4333-a3be-835003a57892")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "R1")
 					(unit 1)
@@ -21019,7 +21324,7 @@
 			(uuid "7c0f76b8-1b57-4bd0-9c22-d151cf544fe5")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C1")
 					(unit 1)
@@ -21089,7 +21394,7 @@
 			(uuid "cdfb9a1f-e14a-4f96-9068-08fb85b5d278")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "R7")
 					(unit 1)
@@ -21159,7 +21464,7 @@
 			(uuid "67918e49-2383-4adb-ba32-54ea3ab33c05")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "R10")
 					(unit 1)
@@ -21251,7 +21556,7 @@
 			(uuid "f066eddc-e0d4-4b16-a77b-16bf16a947aa")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "U3")
 					(unit 1)
@@ -21320,7 +21625,7 @@
 			(uuid "955243ae-b441-48dc-90e8-a90c954e543f")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C31")
 					(unit 1)
@@ -21387,7 +21692,7 @@
 			(uuid "ed2e21f5-258d-4157-9069-ab26af82c54d")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0120")
 					(unit 1)
@@ -21456,7 +21761,7 @@
 			(uuid "e97c4d67-b1a6-4f30-88d4-4be8c8b7c36f")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C27")
 					(unit 1)
@@ -21524,7 +21829,7 @@
 			(uuid "b1415554-70d0-4661-858d-77a5e0e46aa1")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0155")
 					(unit 1)
@@ -21590,7 +21895,7 @@
 			(uuid "0e186a77-a641-47e9-ac97-4a84504f986c")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0141")
 					(unit 1)
@@ -21657,7 +21962,7 @@
 			(uuid "5387feb1-ce5f-4614-b2a0-224b3b5d99ba")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR015")
 					(unit 1)
@@ -21724,7 +22029,7 @@
 			(uuid "21cd2fdf-e6cf-4ebd-a41c-0e9b5e06ca4a")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0163")
 					(unit 1)
@@ -21790,7 +22095,7 @@
 			(uuid "7560e363-cbe5-4731-b3f5-bf86936c2405")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0148")
 					(unit 1)
@@ -21856,7 +22161,7 @@
 			(uuid "df450c33-0482-445f-b92e-ec0ca6b2ac56")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0138")
 					(unit 1)
@@ -21922,7 +22227,7 @@
 			(uuid "e0e6a828-acc3-4fa6-a198-43a9e5e60798")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0127")
 					(unit 1)
@@ -21989,7 +22294,7 @@
 			(uuid "7d39d04c-86b1-4fd3-9090-4b94ccfbabeb")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0164")
 					(unit 1)
@@ -22068,7 +22373,7 @@
 			(uuid "cce34400-5837-4245-a6ae-dc504162a5a7")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "J6")
 					(unit 1)
@@ -22133,7 +22438,7 @@
 			(uuid "383bad0b-a9dd-4009-af64-24f1c70593ce")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0115")
 					(unit 1)
@@ -22200,7 +22505,7 @@
 			(uuid "2698d8f5-aa39-44c1-bf67-32dfc23379f5")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0121")
 					(unit 1)
@@ -22269,7 +22574,7 @@
 			(uuid "0d5ba2ca-5cba-4c02-acb8-201044a94c08")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C20")
 					(unit 1)
@@ -22338,7 +22643,7 @@
 			(uuid "ac31b4ee-b898-417f-a5da-be849c137551")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "R18")
 					(unit 1)
@@ -22405,7 +22710,7 @@
 			(uuid "63595bd5-35cb-4f3f-9e56-9edb4376ea56")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR03")
 					(unit 1)
@@ -22474,7 +22779,7 @@
 			(uuid "14251026-5ff0-4e9f-b550-e63d1443cf6e")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "R11")
 					(unit 1)
@@ -22540,7 +22845,7 @@
 			(uuid "36ca4e21-46b3-412d-9ff1-a88b8cd93afe")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0101")
 					(unit 1)
@@ -22606,7 +22911,7 @@
 			(uuid "570a22e5-d535-4f91-bd17-1767498304de")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0152")
 					(unit 1)
@@ -22756,7 +23061,7 @@
 			(uuid "682203b5-a23c-402b-8d08-54a867843eb2")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "U6")
 					(unit 1)
@@ -22822,7 +23127,7 @@
 			(uuid "2b62565d-e65d-489b-91c6-552229596d3a")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR09")
 					(unit 1)
@@ -22903,7 +23208,7 @@
 			(uuid "1464b4ac-1914-43c9-bc1b-b6f5e3b0f489")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "U4")
 					(unit 1)
@@ -22969,7 +23274,7 @@
 			(uuid "94c8cbed-8519-4f41-9307-dac437a96ee0")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0126")
 					(unit 1)
@@ -23035,7 +23340,7 @@
 			(uuid "46c354dc-cbd4-4a75-8292-b6899a238803")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0131")
 					(unit 1)
@@ -23102,7 +23407,7 @@
 			(uuid "18649751-26a3-4bc1-ac8a-dc05573642e2")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0162")
 					(unit 1)
@@ -23171,7 +23476,7 @@
 			(uuid "ebccd262-b7d6-4eb8-b538-b51d4bea4166")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "R12")
 					(unit 1)
@@ -23269,7 +23574,7 @@
 			(uuid "023c55e2-4acb-4a0b-8c2d-530714f12eab")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "J9")
 					(unit 1)
@@ -23335,7 +23640,7 @@
 			(uuid "b2f0cc7c-53fd-41ee-9d77-e8af71d53d37")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0109")
 					(unit 1)
@@ -23401,7 +23706,7 @@
 			(uuid "eef68445-8af7-4250-aa6f-760bdf245575")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0134")
 					(unit 1)
@@ -23467,7 +23772,7 @@
 			(uuid "2afba448-745d-447c-a5e3-98c75e1dac9e")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR02")
 					(unit 1)
@@ -23534,7 +23839,7 @@
 			(uuid "a07aae9e-c405-4261-89b3-eacea3b4f00c")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0124")
 					(unit 1)
@@ -23603,7 +23908,7 @@
 			(uuid "cf061719-c51f-4b16-b412-c9d87b8942b1")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C22")
 					(unit 1)
@@ -23672,7 +23977,7 @@
 			(uuid "086f87c2-1ca7-4ba2-bff6-ecdaedf04726")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C13")
 					(unit 1)
@@ -23755,7 +24060,7 @@
 			(uuid "37be4c0d-ade4-441d-8b8f-4dce3bad3168")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "U11")
 					(unit 1)
@@ -23823,7 +24128,7 @@
 			(uuid "886c48dd-876c-4340-8646-10e736c7d85c")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0156")
 					(unit 1)
@@ -23889,7 +24194,7 @@
 			(uuid "a8122946-231f-4cf2-9912-27aa153981f8")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0142")
 					(unit 1)
@@ -23958,7 +24263,7 @@
 			(uuid "8ae8ff17-9576-4bcd-bec4-ae2bc27aade1")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C4")
 					(unit 1)
@@ -24034,7 +24339,7 @@
 			(uuid "80f79833-845a-4b76-ab0b-1fa84b4f0e9f")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "J1")
 					(unit 1)
@@ -24100,7 +24405,7 @@
 			(uuid "27a3968e-3e2e-4c20-a430-f60c01770c7b")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0130")
 					(unit 1)
@@ -24166,7 +24471,7 @@
 			(uuid "b76bc8cd-0153-486c-ba20-f3af1a764eb9")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0110")
 					(unit 1)
@@ -24235,9 +24540,75 @@
 			(uuid "69b667cf-ee99-478c-bb92-e60bdb65d1a1")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 274.32 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "caeffd44-1b4b-47b0-89c1-f1aed46849d6")
+		(property "Reference" "TP1"
+			(at 274.32 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "PAD"
+			(at 274.32 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Library:PAD"
+			(at 279.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 274.32 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a7a6dd9-fbc3-4d2b-9407-f54d8773fd3b")
+		)
+		(instances
+			(project "SB_CAN_MAIN"
+				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -24304,7 +24675,7 @@
 			(uuid "86f73a0f-0e0d-4ddb-915e-c41c278db721")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C12")
 					(unit 1)
@@ -24371,7 +24742,7 @@
 			(uuid "cd85297f-a3cb-4579-a107-ef76869041e0")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0113")
 					(unit 1)
@@ -24444,7 +24815,7 @@
 			(uuid "353ecd2c-4e4c-40ec-9caa-7117368144f8")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "U10")
 					(unit 1)
@@ -24514,7 +24885,7 @@
 			(uuid "f4394d10-cc06-4144-aeb4-dded824484ac")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "R20")
 					(unit 1)
@@ -24583,7 +24954,7 @@
 			(uuid "e14a0020-3000-4e4e-9a16-47e02db85433")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C34")
 					(unit 1)
@@ -24649,7 +25020,7 @@
 			(uuid "207fd3ff-9cbc-42b8-a6d1-780f407a58e7")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR07")
 					(unit 1)
@@ -24718,7 +25089,7 @@
 			(uuid "730a2c21-2f56-4fe7-b5f3-72f8d58042e3")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "J5")
 					(unit 1)
@@ -24831,7 +25202,7 @@
 			(uuid "910a7865-2f89-4f59-93dc-c8f2cb5d7fba")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "J2")
 					(unit 1)
@@ -24901,7 +25272,7 @@
 			(uuid "b1e12715-79cd-4a47-a7a0-a3ac728d4956")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "SW1")
 					(unit 1)
@@ -24979,7 +25350,7 @@
 			(uuid "a9026a22-a19c-468c-b7e2-aa80b23c5cc6")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "J3")
 					(unit 1)
@@ -25048,7 +25419,7 @@
 			(uuid "9e0acff4-7d59-4384-a6ed-207fc9192b10")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "R19")
 					(unit 1)
@@ -25114,7 +25485,7 @@
 			(uuid "dfdb536f-ce53-42a8-8a38-2612d70a8976")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0136")
 					(unit 1)
@@ -25182,7 +25553,7 @@
 			(uuid "d4e4ee95-0c53-4466-8fc0-25112fa07847")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "D3")
 					(unit 1)
@@ -25250,7 +25621,7 @@
 			(uuid "a063e275-cf63-4e05-84fb-b665ae9de914")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "FB3")
 					(unit 1)
@@ -25316,7 +25687,7 @@
 			(uuid "a1bdd2fe-68e1-47cc-8adb-98ef72bc5b4e")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0118")
 					(unit 1)
@@ -25326,7 +25697,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 284.48 166.37 0)
+		(at 278.13 166.37 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -25335,7 +25706,7 @@
 		(fields_autoplaced yes)
 		(uuid "df17e562-e15b-4dfc-8dda-a4301657d78c")
 		(property "Reference" "H2"
-			(at 287.02 163.8299 0)
+			(at 280.67 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25343,8 +25714,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 287.02 166.3699 0)
+		(property "Value" "M3"
+			(at 280.67 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25352,8 +25723,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 284.48 166.37 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 278.13 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25362,7 +25733,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 284.48 166.37 0)
+			(at 278.13 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25371,7 +25742,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 284.48 166.37 0)
+			(at 278.13 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25383,7 +25754,7 @@
 			(uuid "e405b847-e1f5-4ea9-a283-f25d16fcd842")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "H2")
 					(unit 1)
@@ -25452,7 +25823,7 @@
 			(uuid "27012703-d9c4-4fba-96e6-cce10ba3c638")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C23")
 					(unit 1)
@@ -25462,7 +25833,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 260.35 166.37 0)
+		(at 267.97 166.37 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -25471,7 +25842,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5e6ae98-0758-4c9e-8ef7-e45c742c763d")
 		(property "Reference" "H1"
-			(at 262.89 163.8299 0)
+			(at 270.51 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25479,8 +25850,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 262.89 166.3699 0)
+		(property "Value" "M3"
+			(at 270.51 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25488,8 +25859,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 260.35 166.37 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 267.97 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25498,7 +25869,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 260.35 166.37 0)
+			(at 267.97 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25507,7 +25878,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 260.35 166.37 0)
+			(at 267.97 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25519,7 +25890,7 @@
 			(uuid "6f5dc893-d822-4ef3-8c42-246a6cbe333b")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "H1")
 					(unit 1)
@@ -25754,7 +26125,7 @@
 			(uuid "f485936f-29e4-4c65-8cc2-a9b5023a09fb")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "U1")
 					(unit 1)
@@ -25837,7 +26208,7 @@
 			(uuid "927a36e2-0f85-4cbf-9484-ba4ad9d44321")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "U5")
 					(unit 1)
@@ -25906,7 +26277,7 @@
 			(uuid "c907489c-76db-40b9-8e17-6841e5fadbf2")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C29")
 					(unit 1)
@@ -25975,7 +26346,7 @@
 			(uuid "66ee08a1-0c8e-4628-9f5a-8b38d3d997e4")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "R2")
 					(unit 1)
@@ -26041,7 +26412,7 @@
 			(uuid "c0d68200-edfd-48c0-adba-45aae19d1c99")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0117")
 					(unit 1)
@@ -26106,7 +26477,7 @@
 			(uuid "d0ac41d0-7154-4344-81bf-d477e2926feb")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0107")
 					(unit 1)
@@ -26181,7 +26552,7 @@
 			(uuid "d5237786-c49c-4c37-85fc-49ccc0d12965")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "Y1")
 					(unit 1)
@@ -26250,7 +26621,7 @@
 			(uuid "1c0cb14a-fe69-4cb4-8fb9-b736695665e5")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C21")
 					(unit 1)
@@ -26317,7 +26688,7 @@
 			(uuid "7b68100d-64e4-4065-b4c2-087e6feddeac")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR04")
 					(unit 1)
@@ -26386,7 +26757,7 @@
 			(uuid "32cfee8b-d941-49fe-b3f5-2a2d12497bb3")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "C35")
 					(unit 1)
@@ -26456,7 +26827,7 @@
 			(uuid "cb086f7c-47e5-430d-80d6-6ddd9add55c4")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "R8")
 					(unit 1)
@@ -26526,7 +26897,7 @@
 			(uuid "e16ca195-413e-4821-b11b-4cd1892f0bf0")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "R17")
 					(unit 1)
@@ -26592,7 +26963,7 @@
 			(uuid "e6a6348f-4300-44f8-8855-fab53de30621")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0135")
 					(unit 1)
@@ -26658,7 +27029,7 @@
 			(uuid "4d907727-6a99-4d6d-95ab-f376d4f0627a")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR012")
 					(unit 1)
@@ -26726,7 +27097,7 @@
 			(uuid "7b50f4c8-f0f1-4993-9388-85e167564259")
 		)
 		(instances
-			(project "SB_CAN"
+			(project "SB_CAN_MAIN"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0157")
 					(unit 1)
