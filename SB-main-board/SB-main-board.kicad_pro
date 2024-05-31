@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.127
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -443,11 +443,13 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Logos"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SB_CAN_FAN.kicad_pro",
+    "filename": "SB-main-board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -478,12 +480,63 @@
         "line_style": 0,
         "microvia_diameter": 0.0,
         "microvia_drill": 0.0,
+        "name": "ADC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1778,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1016,
+        "diff_pair_gap": 0.1778,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.127,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
         "name": "Hi_Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.381,
+        "track_width": 1.016,
         "via_diameter": 1.0,
         "via_drill": 0.5,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1016,
+        "diff_pair_gap": 0.1778,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.127,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "Hi_Signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1778,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1016,
+        "diff_pair_gap": 0.1778,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.127,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "Lo_Signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.127,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -512,15 +565,27 @@
     "netclass_patterns": [
       {
         "netclass": "Power",
-        "pattern": "\\+.*"
+        "pattern": "\\+3V3|\\+1V1|\\+5V"
       },
       {
         "netclass": "Hi_Power",
-        "pattern": ""
+        "pattern": "+24V"
+      },
+      {
+        "netclass": "Hi_Signal",
+        "pattern": "/USB_D."
       },
       {
         "netclass": "Power",
-        "pattern": "GND|PGND"
+        "pattern": "Net.*J3.*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "ADC",
+        "pattern": "/HEAT"
       }
     ]
   },
@@ -532,7 +597,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "SB_CAN.step",
       "svg": "",
       "vrml": ""
     },
@@ -558,7 +623,7 @@
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -570,10 +635,10 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -585,17 +650,29 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "描述",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "位号"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -638,7 +715,7 @@
   },
   "sheets": [
     [
-      "75679a6a-89de-45d6-8f1f-aa62e92337b9",
+      "e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba",
       "根目录"
     ]
   ],
