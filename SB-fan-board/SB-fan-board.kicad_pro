@@ -532,7 +532,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "SB-fan-board.step",
       "svg": "",
       "vrml": ""
     },
