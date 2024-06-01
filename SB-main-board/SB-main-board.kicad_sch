@@ -19585,7 +19585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical"
+		(property "Footprint" "Library:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical"
 			(at 278.13 115.57 0)
 			(effects
 				(font
@@ -20399,7 +20399,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Chilisin_BMRA00040420"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA4030S"
 			(at 80.01 260.35 0)
 			(effects
 				(font
@@ -22332,7 +22332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical"
+		(property "Footprint" "Library:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical"
 			(at 278.13 67.31 0)
 			(effects
 				(font
@@ -23513,7 +23513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x06_P2.00mm_Horizontal"
+		(property "Footprint" "Library:PinHeader_2x06_P2.00mm_Horizontal"
 			(at 271.78 146.05 0)
 			(effects
 				(font
@@ -26515,7 +26515,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
+		(property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm"
 			(at 40.64 109.22 0)
 			(effects
 				(font

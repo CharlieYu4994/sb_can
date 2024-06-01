@@ -58,7 +58,15 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "footprint_type_mismatch|128402392|111260000|893af11b-50de-41db-8292-4de1d0b77dd2|00000000-0000-0000-0000-000000000000",
+        "npth_inside_courtyard|125797392|108370000|3b03b8a4-5958-4d34-b314-5b9e185ef573|34e7a1a2-cc41-4757-96a7-02b3892f0c71",
+        "npth_inside_courtyard|125797392|114150000|8d1797d4-7a9b-49e5-83e9-6601ed83bd2b|34e7a1a2-cc41-4757-96a7-02b3892f0c71",
+        "pth_inside_courtyard|125297392|106940000|a883d7e7-9529-4912-ac5d-34e50376ccc0|34e7a1a2-cc41-4757-96a7-02b3892f0c71",
+        "pth_inside_courtyard|125297392|115580000|ab86f500-d808-4fd9-ac8b-3e6b128f4272|34e7a1a2-cc41-4757-96a7-02b3892f0c71",
+        "pth_inside_courtyard|129477392|106940000|3a6844b5-b0e2-4885-9d67-c1af3fb371f9|34e7a1a2-cc41-4757-96a7-02b3892f0c71",
+        "pth_inside_courtyard|129477392|115580000|f509f795-82ad-413d-9342-017f0607bb87|34e7a1a2-cc41-4757-96a7-02b3892f0c71"
+      ],
       "meta": {
         "version": 2
       },

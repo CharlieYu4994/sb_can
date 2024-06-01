@@ -67,6 +67,17 @@
 		)
 	)
 	(attr smd)
+	(fp_rect
+		(start -1.65 -1.15)
+		(end 1.65 1.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e48ea39c-208d-415a-a20e-9c9805240b72")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
