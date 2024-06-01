@@ -4,6 +4,14 @@
 	(generator_version "8.0")
 	(uuid "e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba")
 	(paper "A3")
+	(title_block
+		(title "StealthBurner CAN Main")
+		(date "2024-06-02")
+		(rev "A0")
+		(company "Lassi-Cat")
+		(comment 1 "Author: Charlie Yu")
+		(comment 4 "CAN toolhead board for StealthBurner")
+	)
 	(lib_symbols
 		(symbol "74xGxx:74AHC1G32"
 			(exclude_from_sim no)
@@ -15220,7 +15228,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0664c976-1b8b-486f-a0a7-c270522a6626")
 		(property "Reference" "R4"
 			(at 39.37 92.71 90)
@@ -26296,7 +26304,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f094e87a-1c00-412e-bf2e-4148dbce7fa7")
 		(property "Reference" "R2"
 			(at 21.59 44.45 90)
