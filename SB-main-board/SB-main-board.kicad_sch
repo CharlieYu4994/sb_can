@@ -12076,6 +12076,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 186.69) (xy 125.73 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9586fc95-e4a2-4872-882e-6cb64de9aa50")
+	)
+	(wire
+		(pts
 			(xy 264.16 24.13) (xy 262.89 24.13)
 		)
 		(stroke
@@ -12093,6 +12103,16 @@
 			(type default)
 		)
 		(uuid "96262fda-7d80-4275-aa83-22aed6bc3124")
+	)
+	(wire
+		(pts
+			(xy 133.35 186.69) (xy 134.62 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "963e9bd6-42ca-4790-884b-e2efe53eb77a")
 	)
 	(wire
 		(pts
@@ -19099,7 +19119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c0382dc-a55d-475e-920f-f2f902a40e26")
-		(property "Reference" "FB4"
+		(property "Reference" "FB5"
 			(at 189.23 176.4918 0)
 			(effects
 				(font
@@ -19153,7 +19173,7 @@
 		(instances
 			(project "SB-main-board"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
-					(reference "FB4")
+					(reference "FB5")
 					(unit 1)
 				)
 			)
@@ -20314,6 +20334,73 @@
 			(project "SB-main-board"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 129.54 186.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c0581e2-d740-4bb7-976f-a03db2afe9ce")
+		(property "Reference" "FB4"
+			(at 129.4892 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120R@100MHz"
+			(at 129.4892 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 129.54 188.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 129.54 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0a387d2f-9caa-4633-b444-f15daafc1c7f")
+		)
+		(pin "1"
+			(uuid "ac6cfaee-7028-408d-9d32-d19bbf69a6d4")
+		)
+		(instances
+			(project "SB-main-board"
+				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
+					(reference "FB4")
 					(unit 1)
 				)
 			)
@@ -22119,6 +22206,73 @@
 			(project "SB-main-board"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 186.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9488f156-40f1-4074-8f66-428ed39c63ac")
+		(property "Reference" "#PWR020"
+			(at 118.11 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 186.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02c6c3db-4039-4fad-b89d-b3177826582d")
+		)
+		(instances
+			(project "SB-main-board"
+				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -25431,6 +25585,73 @@
 			(project "SB-main-board"
 				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 186.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da681d3b-b352-4091-bced-25b511624274")
+		(property "Reference" "#PWR021"
+			(at 140.97 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND"
+			(at 138.43 186.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "278b6d81-9362-4726-9ada-3c7e3a2e33a8")
+		)
+		(instances
+			(project "SB-main-board"
+				(path "/e3d9bf3f-f8be-4a0d-9b69-f1016d65a8ba"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
