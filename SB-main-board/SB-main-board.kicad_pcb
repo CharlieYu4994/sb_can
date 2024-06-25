@@ -22514,7 +22514,7 @@
 		(descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "FB5"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "6b409a51-dca6-4b28-88df-dfdad320d6d3")
@@ -22527,7 +22527,7 @@
 			)
 		)
 		(property "Value" "120R@100MHz"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ed512feb-8b09-4070-9d80-de0b3b37602c")
@@ -22687,7 +22687,7 @@
 			(uuid "f8d2f917-d2a9-4873-a973-c3462513ac8f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "61effb94-fc56-49b6-bc34-4e6c83ab30b2")
 			(effects
