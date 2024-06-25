@@ -1,6 +1,9 @@
 # SB_CAN (StealthBurner_CAN)
 为 Voron Design 的 StealthBurner 设计的工具头 PCB 板
 
+![TEST](images/top.jpeg)
+![TEST](images/bottom.jpeg)
+
 ## 特点
 + 使用 StealthBurner 官方的固定孔位，可以无损兼容现有打印件
 + 使用 CAN 总线与主控制器通讯，可靠性更好
@@ -14,6 +17,36 @@
 ## 使用
 
 ### 打样
-使用「gerber」文件夹内的文件即可，建议使用 1.6mm 板厚，4mil 最小线宽
+使用各文件夹内的「SB-**-board.zip」文件即可，建议使用 1.6mm 板厚，4mil 最小线宽
 
-### 接线
+### 接线 (均为从左向右)
+![](images/SB-main-board_top.jpg)
++ FAN2 (风扇2)
+  + +24V
+  + GPIO0
+  + GPIO1
+  + GND
++ FS (耗材传感器)
+  + +3.3V
+  + GPIO16
+  + ADC2
+  + GND
++ LDC (LDC1612)
+  + GND
+  + GPIO4
+  + GPIO5
+  + +5V
++ PT100
+  + FORCE-
+  + RTDIN-
+  + RTDIN+
+  + FORCE+
++ HS (上下)
+  + GND (GPIO17)
+  + +24V
+![](images/SB-main-board_bottom.jpg)
++ STEP
+  + A-
+  + A+
+  + B+
+  + B-
